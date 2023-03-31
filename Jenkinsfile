@@ -9,7 +9,7 @@ pipeline {
 	    TASK_DEFINITION_NAME="${TASK_DEFINITION_NAME}" // django-webapp-dev-task-definition
 	    DESIRED_COUNT="${DESIRED_COUNT}"
         IMAGE_REPO_NAME="${IMAGE_REPO_NAME}" // django-cicd-with-docker-repo
-        IMAGE_TAG="${IAMGE_TAG}" //latest
+        IMAGE_TAG="latest" //latest
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
 	    registryCredential = "aws-admin-user" //aws-admin-user
     }
