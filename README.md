@@ -1,4 +1,5 @@
 Note: *** Check if ALLOWED_HOSTS has * else add "*" to ALLOWED_HOSTS in todoApp/settings.py for access to app.
+checking
 
 # django-todo
 A simple todo app built with django
